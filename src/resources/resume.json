@@ -89,22 +89,46 @@
     {
       "name": "Frontend",
       "level": "Expert",
-      "keywords": ["JavaScript", "TypeScript", "Angular", "RxJS", "NgRx", "Ionic", "HTML", "CSS", "SCSS"]
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "RxJS",
+        "NgRx",
+        "Ionic",
+        "HTML",
+        "CSS",
+        "SCSS"
+      ]
     },
     {
       "name": "Backend & Database",
       "level": "Intermediate",
-      "keywords": ["Node.js", "PostgreSQL", "MongoDB"]
+      "keywords": [
+        "Node.js",
+        "PostgreSQL",
+        "MongoDB"
+      ]
     },
     {
       "name": "Tools & Design",
       "level": "Advanced",
-      "keywords": ["Git", "Figma", "Angular Material"]
+      "keywords": [
+        "Git",
+        "Figma",
+        "Angular Material"
+      ]
     },
     {
       "name": "Soft Skills",
-      "level": null,
-      "keywords": ["Teamwork", "Time management", "Proactivity", "Communication", "Mentorship"]
+      "level": "Advanced",
+      "keywords": [
+        "Teamwork",
+        "Time management",
+        "Proactivity",
+        "Communication",
+        "Mentorship"
+      ]
     }
   ],
   "education": [
@@ -116,9 +140,14 @@
       "endDate": "2014-06"
     }
   ],
-  "interests": {
-    "desiredRole": "Senior Frontend Developer / Frontend Lead",
-    "status": "open",
-    "workType": ["remote", "hybrid"]
-  }
+  "interests": [
+    {
+      "desiredRole": "Senior Frontend Developer / Frontend Lead",
+      "status": "open",
+      "workType": [
+        "remote",
+        "hybrid"
+      ]
+    }
+  ]
 }
