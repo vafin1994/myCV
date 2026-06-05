@@ -1,4 +1,7 @@
-@if (resume()) {
+@if (resume() !== null) {
+  <h3>{{resume()!.basics.name}}</h3>
+  {{resume()!.basics.label}}
+  <hr>
   <div>
     {{ resume() | json }}
   </div>

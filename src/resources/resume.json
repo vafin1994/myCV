@@ -142,12 +142,30 @@
   ],
   "interests": [
     {
-      "desiredRole": "Senior Frontend Developer / Frontend Lead",
+      "desiredRole": "Senior Frontend Developer",
       "status": "open",
       "workType": [
         "remote",
         "hybrid"
       ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Ukrainian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Czech",
+      "fluency": "Beginner"
     }
   ]
 }
