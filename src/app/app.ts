@@ -2,11 +2,15 @@ import {Component, inject, OnInit, signal, WritableSignal} from '@angular/core';
 import {ResumeService} from './services/resume-service';
 import {JsonPipe} from '@angular/common';
 import {Resume} from './models/resume.interface';
+import {Main} from './sections/main/main';
+import {NavBar} from './sections/nav-bar/nav-bar';
 
 @Component({
   selector: 'app-root',
   imports: [
-    JsonPipe
+    JsonPipe,
+    Main,
+    NavBar
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
