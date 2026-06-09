@@ -1,4 +1,25 @@
-@if (resume()) {
+<div>
+  <app-nav-bar [resume]="resume()!"></app-nav-bar>
+</div>
+<div #main class="main">
+  <app-main [resume]="resume()!"></app-main>
+</div>
+<div #about>
+
+</div>
+<div #skills>
+
+</div>
+<div #experience>
+
+</div>
+<div #contact>
+
+</div>
+@if (resume() !== null) {
+  <h3>{{ resume()!.basics.name }}</h3>
+  {{ resume()!.basics.label }}
+  <hr>
   <div>
     {{ resume() | json }}
   </div>
