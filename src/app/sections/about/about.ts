@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {Resume} from '../../models/resume.interface';
 
 @Component({
   selector: 'app-about',
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './about.html',
   styleUrl: './about.css',
 })
-export class About {}
+export class About {
+  @Input() resume!: Resume;
+}

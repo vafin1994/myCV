@@ -4,13 +4,15 @@ import {JsonPipe} from '@angular/common';
 import {Resume} from './models/resume.interface';
 import {Main} from './sections/main/main';
 import {NavBar} from './sections/nav-bar/nav-bar';
+import {About} from './sections/about/about';
 
 @Component({
   selector: 'app-root',
   imports: [
     JsonPipe,
     Main,
-    NavBar
+    NavBar,
+    About
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
