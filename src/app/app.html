@@ -1,26 +1,20 @@
-<div>
-  <app-nav-bar [resume]="resume()!"></app-nav-bar>
-</div>
-<div #main class="main">
-  <app-main [resume]="resume()!"></app-main>
-</div>
-<div #about>
-  <app-about [resume]="resume()!"> </app-about>
-</div>
-<div #skills>
+<app-nav-bar></app-nav-bar>
 
-</div>
-<div #experience>
+@if (resume(); as data) {
+  <main id="top">
+    <app-main [resume]="data"></app-main>
+    <app-about [resume]="data"></app-about>
+    <app-skills [resume]="data"></app-skills>
+    <app-experience [resume]="data"></app-experience>
+    <app-contact [resume]="data"></app-contact>
+  </main>
 
-</div>
-<div #contact>
-
-</div>
-@if (resume() !== null) {
-  <h3>{{ resume()!.basics.name }}</h3>
-  {{ resume()!.basics.label }}
-  <hr>
-  <div>
-    {{ resume() | json }}
-  </div>
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <span>© 2026 {{ data.basics.name }} — {{ data.basics.label }}</span>
+      <a class="totop" href="#top">back to top
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+      </a>
+    </div>
+  </footer>
 }

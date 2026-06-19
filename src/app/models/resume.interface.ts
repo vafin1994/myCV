@@ -21,6 +21,7 @@ interface Location {
   "city": string,
   "countryCode": string,
   "region": string,
+  "country"?: string,
 }
 
 interface ProfileItem {
@@ -38,9 +39,10 @@ interface InterestItem {
 interface WorkItem {
   "name": string,
   "position": string,
-  "url": string,
+  "url"?: string,
   "startDate": string,
-  "endDate": string,
+  "endDate"?: string,
+  "location"?: string,
   "summary": string,
   "highlights": string[]
 }

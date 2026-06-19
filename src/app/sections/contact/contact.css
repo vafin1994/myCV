@@ -1,0 +1,77 @@
+.contact {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: clamp(28px, 5vw, 48px);
+}
+
+.contact__lead {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(24px, 4.2vw, 38px);
+  letter-spacing: -.02em;
+  line-height: 1.08;
+  max-width: 18ch;
+}
+
+.contact__lead em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+.contact__grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.clink {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg-2);
+  transition: border-color .2s ease, transform .15s ease;
+}
+
+.clink:hover {
+  border-color: var(--accent-3);
+  transform: translateY(-1px);
+}
+
+.clink svg {
+  width: 18px;
+  height: 18px;
+  color: var(--accent);
+  flex: none;
+}
+
+.clink > span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.clink__k {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--faint-s);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.clink__v {
+  font-size: 14.5px;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .contact__grid {
+    grid-template-columns: 1fr;
+  }
+}

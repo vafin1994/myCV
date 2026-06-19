@@ -1,1 +1,58 @@
-<p>experience works!</p>
+<section id="experience" class="sec wrap" data-screen-label="Experience" aria-labelledby="exp-title">
+  <div class="sec__head">
+    <span class="sec__num">03</span>
+    <div>
+      <span class="kicker">Experience</span>
+      <h2 id="exp-title" class="sec__title">Where I've worked</h2>
+    </div>
+  </div>
+
+  <div class="timeline">
+    @for (job of resume.work; track job.name) {
+      <article class="job" [class.job--now]="!job.endDate">
+        <div class="job__head">
+          <h3 class="job__role">{{ job.position }} <span class="job__co">· {{ job.name }}</span></h3>
+          <span class="job__date">{{ formatDate(job.startDate) }} — {{ formatDate(job.endDate) }}</span>
+        </div>
+        @if (job.location) {
+          <div class="job__meta"><span>{{ job.location }}</span></div>
+        }
+        <p class="job__sum">{{ job.summary }}</p>
+        @if (job.highlights.length) {
+          <ul class="job__hl">
+            @for (hl of job.highlights; track hl) {
+              <li>{{ hl }}</li>
+            }
+          </ul>
+        }
+      </article>
+    }
+  </div>
+
+  <div class="twoup" style="margin-top: 36px">
+    <div class="panel">
+      <h3>Education</h3>
+      @for (edu of resume.education; track edu.institution) {
+        <div class="edu__deg">{{ edu.studyType }}, {{ edu.area }}</div>
+        <div class="edu__inst">{{ edu.institution }}</div>
+        <div class="edu__date">{{ formatDate(edu.startDate) }} — {{ formatDate(edu.endDate) }}</div>
+      }
+    </div>
+    <div class="panel">
+      <h3>Languages</h3>
+      <div class="langs">
+        @for (lang of resume.languages; track lang.language) {
+          <div class="lang">
+            <span class="lang__n">{{ lang.language }}</span>
+            <span class="lang__f">{{ lang.fluency }}</span>
+            <span class="meter" aria-hidden="true">
+              @for (dot of fluencyDots(lang.fluency); track $index) {
+                <i [class.on]="dot"></i>
+              }
+            </span>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</section>

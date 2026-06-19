@@ -1,1 +1,32 @@
-<p>contact works!</p>
+<section id="contact" class="sec wrap" data-screen-label="Contact" aria-labelledby="contact-title">
+  <div class="sec__head">
+    <span class="sec__num">04</span>
+    <div>
+      <span class="kicker">Contact</span>
+      <h2 id="contact-title" class="sec__title">Let's talk</h2>
+    </div>
+  </div>
+  <div class="contact">
+    <p class="contact__lead">Open to <em>{{ resume.interests[0].desiredRole }}</em> roles — {{ resume.interests[0].workType.join(' or ') }}.</p>
+    <div class="contact__grid">
+      <a class="clink" [href]="'mailto:' + resume.basics.email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        <span><span class="clink__k">Email</span><span class="clink__v">{{ resume.basics.email }}</span></span>
+      </a>
+      <a class="clink" [href]="phoneHref">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span><span class="clink__k">Phone</span><span class="clink__v">{{ resume.basics.phone }}</span></span>
+      </a>
+      @if (linkedIn) {
+        <a class="clink" [href]="linkedIn.url" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zM8.34 17.34V10.4H6.03v6.94h2.31zM7.18 9.4a1.34 1.34 0 1 0 0-2.68 1.34 1.34 0 0 0 0 2.68zm10.16 7.94v-3.8c0-2.03-1.08-2.98-2.53-2.98-1.17 0-1.69.64-1.98 1.09v-.94h-2.3c.03.65 0 6.94 0 6.94h2.3v-3.88c0-.2.02-.41.08-.56.16-.41.54-.84 1.17-.84.83 0 1.16.63 1.16 1.55v3.73h2.43z"/></svg>
+          <span><span class="clink__k">LinkedIn</span><span class="clink__v">/in/{{ linkedIn.username }}</span></span>
+        </a>
+      }
+      <a class="clink" [href]="mapsHref" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span><span class="clink__k">Location</span><span class="clink__v">{{ resume.basics.location.city }}, {{ resume.basics.location.country }}</span></span>
+      </a>
+    </div>
+  </div>
+</section>
