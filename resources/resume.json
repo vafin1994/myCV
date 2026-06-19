@@ -1,0 +1,178 @@
+{
+  "basics": {
+    "name": "Oleksandr Vafin",
+    "label": "Senior Frontend Developer",
+    "email": "vafinalex@gmail.com",
+    "phone": "+420 776 490 734",
+    "summary": "Experienced front-end developer with 6+ years crafting innovative, efficient solutions across logistics, telecommunications and SaaS — specializing in Angular with a strong emphasis on performance and usability.",
+    "bio": [
+      "I'm a <strong>Senior Frontend Developer</strong> based in Prague with over six years of commercial experience building user-centric applications across logistics, telecommunications and SaaS.",
+      "My focus is <strong>performance and usability</strong> — resolving complex bugs, eliminating redundant work, and shaping interfaces that scale. I work primarily in the Angular ecosystem with TypeScript, RxJS, NgRx and Ionic, and I care about code quality, mentorship and a healthy release process.",
+      "I've delivered for government tenders, port terminals and telecom operators across four countries — and I enjoy helping teams grow as much as shipping the product."
+    ],
+    "location": {
+      "city": "Prague",
+      "countryCode": "CZ",
+      "region": "Prague",
+      "country": "Czechia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "oleksandrvafin",
+        "url": "https://linkedin.com/in/oleksandrvafin"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Neoris",
+      "position": "Senior Software Developer",
+      "location": "Prague, Czech Republic",
+      "startDate": "2024-01",
+      "summary": "Working on enterprise-level frontend applications with focus on performance, reliability and team growth.",
+      "highlights": [
+        "Resolved complex bugs and optimized performance, reducing the number of requests on key pages by up to 30%",
+        "Provided mentorship and onboarding support, reducing time to first closed task from 3 weeks to 6 days",
+        "Successfully launched an Ionic application for a new region, achieving 100+ users in the first month",
+        "Participated in the software release process, ensuring code quality and deployment readiness"
+      ]
+    },
+    {
+      "name": "Port 443",
+      "position": "Software Developer",
+      "location": "Prague, Czech Republic",
+      "startDate": "2023-02",
+      "endDate": "2023-08",
+      "summary": "Contributed to cross-functional team discussions and delivered frontend improvements on an existing application.",
+      "highlights": [
+        "Implemented a new version of table component, significantly reducing codebase size and improving application speed",
+        "Collaborated on epics and user stories, ensuring features met client and business requirements",
+        "Increased test coverage of the application up to 85%"
+      ]
+    },
+    {
+      "name": "Friendly",
+      "position": "Frontend Developer",
+      "location": "Toronto, Canada",
+      "startDate": "2022-03",
+      "endDate": "2023-02",
+      "summary": "Designed and maintained user interfaces for scalable web applications with emphasis on responsive design and performance.",
+      "highlights": [
+        "Developed a high-performance application for a telecommunication company to manage IoT devices across 1,000+ towers",
+        "Improved stability by resolving memory leaks and eliminating redundant API requests",
+        "Built responsive UIs with strong emphasis on enhanced user experience"
+      ]
+    },
+    {
+      "name": "PPL 33-35",
+      "position": "Frontend Developer",
+      "location": "Krakow, Poland",
+      "startDate": "2020-04",
+      "endDate": "2021-12",
+      "summary": "Delivered critical frontend projects for port terminal and government clients under tight deadlines.",
+      "highlights": [
+        "Migrated core legacy application from Angular 4 to Angular 14",
+        "Delivered an MVP for a government tender in a tight timeframe",
+        "Developed a robust solution for a port terminal operating seamlessly for over five years"
+      ]
+    },
+    {
+      "name": "Vugasi",
+      "position": "Full Stack Developer",
+      "location": "Odesa, Ukraine",
+      "startDate": "2018-08",
+      "endDate": "2020-01",
+      "summary": "Led full-stack development of an MVP video/text chat platform with integrated multiplayer games.",
+      "highlights": [
+        "Designed and implemented a video/text chat application integrated with simple multiplayer games using WebRTC",
+        "Led end-to-end development of the MVP, owning both frontend and backend",
+        "Utilized Angular, WebRTC, Node.js, MongoDB, and PostgreSQL"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Expert",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "RxJS",
+        "NgRx",
+        "Ionic",
+        "HTML",
+        "CSS",
+        "SCSS"
+      ]
+    },
+    {
+      "name": "Backend & Database",
+      "level": "Intermediate",
+      "keywords": [
+        "Java",
+        "Node.js",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Tools & Design",
+      "level": "Advanced",
+      "keywords": [
+        "Git",
+        "Figma",
+        "Angular Material"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "Advanced",
+      "keywords": [
+        "Teamwork",
+        "Time management",
+        "Proactivity",
+        "Communication",
+        "Mentorship"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Odessa National Maritime Academy",
+      "area": "Navigation",
+      "studyType": "Bachelor",
+      "startDate": "2010-09",
+      "endDate": "2014-06"
+    }
+  ],
+  "interests": [
+    {
+      "desiredRole": "Senior Frontend Developer",
+      "status": "open",
+      "workType": ["remote", "hybrid"],
+      "experience": "6+ years",
+      "focusPrimary": ["Angular", "TypeScript"],
+      "focusSecondary": ["Ionic", "RxJS", "NgRx"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Ukrainian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Czech",
+      "fluency": "Beginner"
+    }
+  ]
+}
