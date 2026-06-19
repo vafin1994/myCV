@@ -4,7 +4,12 @@
     "label": "Senior Frontend Developer",
     "email": "vafinalex@gmail.com",
     "phone": "+420 776 490 734",
-    "summary": "Experienced front-end developer with 6+ years of commercial expertise in crafting innovative and efficient solutions across various industries, including logistics, telecommunications, and SaaS. Skilled in building user-centric applications with a strong emphasis on performance and usability. Proficient in modern technologies such as JavaScript, TypeScript, Ionic, HTML, and CSS, with a specialization in Angular.",
+    "summary": "Experienced front-end developer with 6+ years crafting innovative, efficient solutions across logistics, telecommunications and SaaS — specializing in Angular with a strong emphasis on performance and usability.",
+    "bio": [
+      "I'm a <strong>Senior Frontend Developer</strong> based in Prague with over six years of commercial experience building user-centric applications across logistics, telecommunications and SaaS.",
+      "My focus is <strong>performance and usability</strong> — resolving complex bugs, eliminating redundant work, and shaping interfaces that scale. I work primarily in the Angular ecosystem with TypeScript, RxJS, NgRx and Ionic, and I care about code quality, mentorship and a healthy release process.",
+      "I've delivered for government tenders, port terminals and telecom operators across four countries — and I enjoy helping teams grow as much as shipping the product."
+    ],
     "location": {
       "city": "Prague",
       "countryCode": "CZ",
@@ -146,10 +151,10 @@
     {
       "desiredRole": "Senior Frontend Developer",
       "status": "open",
-      "workType": [
-        "remote",
-        "hybrid"
-      ]
+      "workType": ["remote", "hybrid"],
+      "experience": "6+ years",
+      "focusPrimary": ["Angular", "TypeScript"],
+      "focusSecondary": ["Ionic", "RxJS", "NgRx"]
     }
   ],
   "languages": [

@@ -9,4 +9,14 @@ import {Resume} from '../../models/resume.interface';
 })
 export class About {
   @Input() resume!: Resume;
+
+  get interest() { return this.resume.interests[0]; }
+
+  get workTypeDisplay(): string {
+    return this.interest.workType
+      .map(t => t.charAt(0).toUpperCase() + t.slice(1))
+      .join(' · ');
+  }
+
+  get isAvailable(): boolean { return this.interest.status === 'open'; }
 }

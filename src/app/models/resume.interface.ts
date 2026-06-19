@@ -13,6 +13,7 @@ interface BasicsSection {
   "email": string,
   "phone": string,
   "summary": string,
+  "bio"?: string[],
   "location": Location,
   "profiles": ProfileItem[]
 }
@@ -32,8 +33,11 @@ interface ProfileItem {
 
 interface InterestItem {
   "desiredRole": string,
-  "status": string
-  "workType": string[]
+  "status": string,
+  "workType": string[],
+  "experience"?: string,
+  "focusPrimary"?: string[],
+  "focusSecondary"?: string[],
 }
 
 interface WorkItem {
