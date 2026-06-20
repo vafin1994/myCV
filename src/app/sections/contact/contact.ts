@@ -14,6 +14,10 @@ export class Contact {
     return this.resume.basics.profiles.find(p => p.network === 'LinkedIn');
   }
 
+  get gitHub() {
+    return this.resume.basics.profiles.find(p => p.network === 'GitHub');
+  }
+
   get phoneHref(): string {
     return 'tel:' + this.resume.basics.phone.replace(/\s/g, '');
   }
