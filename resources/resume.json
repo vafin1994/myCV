@@ -20,16 +20,35 @@
       {
         "network": "LinkedIn",
         "username": "oleksandrvafin",
-        "url": "https://linkedin.com/in/oleksandrvafin"
+        "url": "https://www.linkedin.com/in/oleksandr-vafin-508326210/"
+      },
+      {
+        "network": "GitHub",
+        "username": "vafin1994",
+        "url": "https://github.com/vafin1994"
       }
     ]
   },
   "work": [
     {
+      "name": "Barclays",
+      "position": "AVP Software Engineer",
+      "location": "Prague, Czech Republic",
+      "startDate": "2025-11",
+      "summary": "Working in the Treasury department at Barclays, participating in the development of an OpenFin-based platform and integrating existing applications into it with shared context.",
+      "highlights": [
+        "Implemented OpenFin notifications",
+        "Added Intent events and integrated them into the top-bar menu for cross-app communication",
+        "Created a shared-components app to reduce repeated code across applications and ensure consistency",
+        "Developed and improved UI components in a shared UI library, from gathering requirements to releasing, documenting, and supporting the features"
+      ]
+    },
+    {
       "name": "Neoris",
       "position": "Senior Software Developer",
       "location": "Prague, Czech Republic",
       "startDate": "2024-01",
+      "endDate": "2025-11",
       "summary": "Working on enterprise-level frontend applications with focus on performance, reliability and team growth.",
       "highlights": [
         "Resolved complex bugs and optimized performance, reducing the number of requests on key pages by up to 30%",
@@ -134,7 +153,7 @@
         "Time management",
         "Proactivity",
         "Communication",
-        "Mentorship"
+        "Onboarding"
       ]
     }
   ],
@@ -151,10 +170,21 @@
     {
       "desiredRole": "Senior Frontend Developer",
       "status": "open",
-      "workType": ["remote", "hybrid"],
+      "workType": [
+        "on-site",
+        "hybrid",
+        "remote"
+      ],
       "experience": "6+ years",
-      "focusPrimary": ["Angular", "TypeScript"],
-      "focusSecondary": ["Ionic", "RxJS", "NgRx"]
+      "focusPrimary": [
+        "Angular",
+        "TypeScript"
+      ],
+      "focusSecondary": [
+        "Ionic",
+        "RxJS",
+        "NgRx"
+      ]
     }
   ],
   "languages": [
